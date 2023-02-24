@@ -1,0 +1,15 @@
+C:\Users\nyaro\source\repos\Lesson.ICollection\bin\Debug\net7.0\Lesson.ICollection.exe
+C:\Users\nyaro\source\repos\Lesson.ICollection\bin\Debug\net7.0\Lesson.ICollection.deps.json
+C:\Users\nyaro\source\repos\Lesson.ICollection\bin\Debug\net7.0\Lesson.ICollection.runtimeconfig.json
+C:\Users\nyaro\source\repos\Lesson.ICollection\bin\Debug\net7.0\Lesson.ICollection.dll
+C:\Users\nyaro\source\repos\Lesson.ICollection\bin\Debug\net7.0\Lesson.ICollection.pdb
+C:\Users\nyaro\source\repos\Lesson.ICollection\obj\Debug\net7.0\Lesson.ICollection.csproj.AssemblyReference.cache
+C:\Users\nyaro\source\repos\Lesson.ICollection\obj\Debug\net7.0\Lesson.ICollection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nyaro\source\repos\Lesson.ICollection\obj\Debug\net7.0\Lesson.ICollection.AssemblyInfoInputs.cache
+C:\Users\nyaro\source\repos\Lesson.ICollection\obj\Debug\net7.0\Lesson.ICollection.AssemblyInfo.cs
+C:\Users\nyaro\source\repos\Lesson.ICollection\obj\Debug\net7.0\Lesson.ICollection.csproj.CoreCompileInputs.cache
+C:\Users\nyaro\source\repos\Lesson.ICollection\obj\Debug\net7.0\Lesson.ICollection.dll
+C:\Users\nyaro\source\repos\Lesson.ICollection\obj\Debug\net7.0\refint\Lesson.ICollection.dll
+C:\Users\nyaro\source\repos\Lesson.ICollection\obj\Debug\net7.0\Lesson.ICollection.pdb
+C:\Users\nyaro\source\repos\Lesson.ICollection\obj\Debug\net7.0\Lesson.ICollection.genruntimeconfig.cache
+C:\Users\nyaro\source\repos\Lesson.ICollection\obj\Debug\net7.0\ref\Lesson.ICollection.dll
