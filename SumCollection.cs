@@ -43,7 +43,7 @@ namespace Lesson.ICollection
         int index = -1;
         private List<int> intList = new List<int>();
         public SumEnumerator(List<int> intList) => this.intList = intList;
-        public object Current => index >= 0 ? intList[index] + intList[index+1] : null;
+        public object Current => index < 0 ? intList[index+1] : intList[index] + intList[index+1];
 
         public bool MoveNext()
         {
