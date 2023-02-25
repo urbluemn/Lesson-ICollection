@@ -1,3 +1,4 @@
+using System.Reflection.Metadata;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -8,8 +9,9 @@ namespace Lesson.ICollection
 {
     public class SumCollection : IEnumerable
     {
-
+        private readonly SumEnumerator SumEnum;
         private List<int> intList = new List<int>();
+        public SumCollection() => SumEnum = new SumEnumerator(intList);
 
         public void Add(int i)
         {
@@ -21,30 +23,50 @@ namespace Lesson.ICollection
             intList.AddRange(arri);
         }
 
+        public void Get()
+        {
+           Console.WriteLine(SumEnum.Current);
+        }
+
         public IEnumerator GetEnumerator()
         {
-            var current = 0;
-            for(int i = current+1; i<intList.Count; i++)
-            {
-                yield return intList[current] + intList[i];
-                current++;
-            }
-            }
+            return SumEnum;
+            // for(int i = 0; i<intList.Count-1; i++)
+            // {
+            //     yield return intList[i] + intList[i+1];
+            // }
+        }
     }
 
     public class SumEnumerator : IEnumerator
     {
         int index = -1;
-        public object Current => throw new NotImplementedException();
+        private List<int> intList = new List<int>();
+        public SumEnumerator(List<int> intList) => this.intList = intList;
+        public object Current
+        {
+            get {
+                    if(index < (intList.Count-1) && index >= 0)
+                    {
+                        return intList[index] + intList[index+1];
+                    }
+                    return null;
+                }
+        }
 
         public bool MoveNext()
         {
-            throw new NotImplementedException();
+            if(index<intList.Count-1)
+            {
+                index++;
+                return true;
+            }
+            return false;
         }
 
         public void Reset()
         {
-            throw new NotImplementedException();
+            index = -1;
         }
     }
 }
